@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Download Osmo for Mac</title>
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .dl-wrap { max-width: 680px; margin: 0 auto; padding: 60px 24px 100px; }
+    .dl-title { font-family: var(--font-serif); font-weight: 500; font-size: 42px; letter-spacing: -0.02em; color: var(--ink); margin: 22px 0 10px; }
+    .dl-sub { font-size: 17px; color: var(--content-text); line-height: 1.55; margin: 0 0 30px; }
+    .dl-card { background: var(--surface-2); border: 1px solid var(--content-divider); border-radius: 20px; padding: 26px; margin-top: 22px; }
+    .dl-card h3 { font-size: 15px; font-weight: 600; color: var(--ink); margin: 0 0 6px; letter-spacing: -0.01em; }
+    .dl-note { font-size: 14px; color: var(--muted-foreground); line-height: 1.6; margin: 0; }
+    .dl-steps { margin: 14px 0 0; padding: 0; list-style: none; counter-reset: s; }
+    .dl-steps li { position: relative; padding: 8px 0 8px 40px; font-size: 15px; color: #2c3646; line-height: 1.5; border-top: 1px solid var(--content-divider); counter-increment: s; }
+    .dl-steps li:first-child { border-top: none; }
+    .dl-steps li::before { content: counter(s); position: absolute; left: 0; top: 8px; width: 26px; height: 26px; border-radius: 999px; background: var(--ink); color: #fff; font-size: 13px; font-weight: 600; display: grid; place-items: center; }
+    .dl-code { display: flex; align-items: center; gap: 10px; background: #0d1526; color: #e6ebf2; border-radius: 12px; padding: 12px 14px; margin-top: 12px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; overflow-x: auto; }
+    .dl-code code { white-space: nowrap; }
+    .dl-copy { margin-left: auto; flex: none; background: rgba(255,255,255,.12); color: #fff; border: none; border-radius: 8px; padding: 6px 12px; font-size: 12px; font-weight: 600; cursor: pointer; }
+    .dl-copy:hover { background: rgba(255,255,255,.2); }
+    .btn--big { font-size: 16px; padding: 14px 26px; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/" aria-label="Osmo home">
+        <img class="brand-mark" src="assets/logo-brain.png" alt="" />
+        <span>Osmo</span>
+      </a>
+      <div class="header-cta">
+        <a class="btn btn--ghost" href="https://app.leftonread.in/login">Login</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="dl-wrap">
+    <a href="/" style="color:var(--muted-foreground);text-decoration:none;font-size:14px">← Osmo</a>
+    <h1 class="dl-title">Download Osmo for Mac</h1>
+    <p class="dl-sub">Osmo runs on macOS 14 and later, on Apple&nbsp;Silicon. It installs outside the Mac App Store — that&rsquo;s what lets it read your conversations locally and stay private.</p>
+
+    <a class="btn btn--dark btn--big" href="https://github.com/princecharming001/leftonread/releases/download/v0.2.0-beta/Osmo-0.2.0-beta.zip">
+      <svg class="imsg-ico" viewBox="0 0 24 24" fill="#4cd964" aria-hidden="true"><path d="M12 2C6.5 2 2 5.9 2 10.7c0 2.7 1.4 5.1 3.6 6.7-.1 1.2-.6 2.4-1.4 3.4 1.6-.2 3.1-.8 4.4-1.7 1.1.3 2.2.5 3.4.5 5.5 0 10-3.9 10-8.7S17.5 2 12 2Z"/></svg>
+      Download Osmo (.zip)
+    </a>
+
+    <div class="dl-card">
+      <h3>Opening it the first time</h3>
+      <p class="dl-note">This beta is signed but not yet notarized by Apple, so macOS asks you to confirm the first launch. Once, then never again:</p>
+      <ol class="dl-steps">
+        <li>Unzip and drag <b>Osmo</b> to your Applications folder, then double-click it.</li>
+        <li>On the &ldquo;Apple could not verify&rdquo; message, click <b>Done</b>.</li>
+        <li>Open <b>System&nbsp;Settings → Privacy&nbsp;&amp;&nbsp;Security</b>, scroll to <b>Security</b>, and click <b>Open&nbsp;Anyway</b> next to Osmo.</li>
+      </ol>
+    </div>
+
+    <div class="dl-card">
+      <h3>Or install in one line</h3>
+      <p class="dl-note">Prefer the terminal? This downloads Osmo, installs it, and opens it with no prompts:</p>
+      <div class="dl-code">
+        <code id="cmd">curl -fsSL https://leftonread.in/install.sh | bash</code>
+        <button class="dl-copy" onclick="navigator.clipboard.writeText(document.getElementById('cmd').textContent).then(()=>{this.textContent='Copied';setTimeout(()=>this.textContent='Copy',1500)})">Copy</button>
+      </div>
+    </div>
+
+    <p class="dl-note" style="margin-top:28px">Once you open Osmo, it walks you through a summon shortcut and one Accessibility permission, with a plain reason for each.</p>
+  </main>
+</body>
+</html>
