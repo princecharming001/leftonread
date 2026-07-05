@@ -160,7 +160,7 @@ h1.hero-title .rotator { font-style: italic; color: var(--ink); }
   display: flex; flex-direction: column; align-items: center; gap: 4px;
   padding: 6px 12px 12px; border-bottom: 0.5px solid #e5e5e5;
 }
-.chat-header .avatar { width: 46px; height: 46px; border-radius: 999px; background: #111; object-fit: contain; padding: 9px; box-sizing: border-box; }
+.chat-header .avatar { width: 46px; height: 46px; background: transparent; object-fit: contain; box-sizing: border-box; }
 .chat-header .name { font-size: 12px; color: #333; }
 .chat-body { flex: 1; padding: 14px 12px; display: flex; flex-direction: column; gap: 8px; overflow: hidden; background: var(--white); }
 .chat-time { text-align: center; font-size: 11px; color: #8a8a8e; margin: 4px 0; }
@@ -180,9 +180,8 @@ h1.hero-title .rotator { font-style: italic; color: var(--ink); }
    ============================================================ */
 .testimonial { padding: 90px 0; text-align: center; }
 .testimonial .t-avatar {
-  width: 72px; height: 72px; border-radius: 18px; margin: 0 auto 34px;
-  background: #1a120e; object-fit: contain; padding: 16px; box-sizing: border-box;
-  box-shadow: 0 18px 40px -12px rgba(8,21,46,0.28);
+  width: 72px; height: 72px; margin: 0 auto 34px;
+  background: transparent; object-fit: contain;
 }
 .testimonial blockquote {
   font-family: var(--font-serif); font-weight: 400;
