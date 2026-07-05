@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Osmo — know exactly what to say</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/" aria-label="Osmo home">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path fill="#08152e" d="M12 2c1.1 0 2 1.5 2 3.4 0 .5-.06 1-.17 1.4A3.7 3.7 0 0 1 17 5.3c1.6-.9 3.4-.6 4 .5.55 1-.2 2.6-1.7 3.7-.4.3-.85.5-1.3.66.45.16.9.36 1.3.66 1.5 1.1 2.25 2.7 1.7 3.7-.6 1.1-2.4 1.4-4 .5a3.7 3.7 0 0 1-1.17-1.1c.11.4.17.9.17 1.4 0 1.9-.9 3.4-2 3.4s-2-1.5-2-3.4c0-.5.06-1 .17-1.4A3.7 3.7 0 0 1 7 18.7c-1.6.9-3.4.6-4-.5-.55-1 .2-2.6 1.7-3.7.4-.3.85-.5 1.3-.66A5 5 0 0 1 4.7 13.2C3.2 12.1 2.45 10.5 3 9.5c.6-1.1 2.4-1.4 4-.5.47.27.86.65 1.17 1.1A5 5 0 0 1 8 8.7C8 6.8 8.9 5.3 10 5.3M12 9.4a2.6 2.6 0 1 0 0 5.2 2.6 2.6 0 0 0 0-5.2Z"/>
+        </svg>
+        <span>Osmo</span>
+      </a>
+      <nav class="main-nav">
+        <a href="#features">How it works</a>
+        <a href="/blog">Blog</a>
+        <a href="/manifesto">Manifesto</a>
+        <a href="mailto:hello@osmo.ai">Contact Us</a>
+      </nav>
+      <div class="header-cta">
+        <a class="btn btn--ghost" href="#">Login</a>
+        <a class="btn btn--dark" href="#">Download for Mac</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== HERO ==================== -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <a class="badge" href="#">
+            <span class="tag">New</span>
+            <span>Osmo for macOS</span>
+          </a>
+          <h1 class="hero-title">
+            Know exactly what to say to your
+            <span class="rotator-wrap"><span class="rotator" id="rotator">closest friend</span></span>.
+          </h1>
+          <p class="hero-sub">Your relationships live scattered across a dozen apps. Osmo connects them all — one memory for every person, calibrated to how they think, timed to when it lands.</p>
+          <a class="btn btn--dark" href="#">
+            <svg class="imsg-ico" viewBox="0 0 24 24" fill="#4cd964" aria-hidden="true"><path d="M12 2C6.5 2 2 5.9 2 10.7c0 2.7 1.4 5.1 3.6 6.7-.1 1.2-.6 2.4-1.4 3.4 1.6-.2 3.1-.8 4.4-1.7 1.1.3 2.2.5 3.4.5 5.5 0 10-3.9 10-8.7S17.5 2 12 2Z"/></svg>
+            Download for Mac
+          </a>
+        </div>
+
+        <!-- iPhone mockup -->
+        <div class="phone-stage">
+          <div class="phone">
+            <div class="phone-screen">
+              <div class="notch"></div>
+              <div class="ios-status">
+                <span>9:41</span>
+                <span class="icons">
+                  <svg width="17" height="12" viewBox="0 0 18 12" fill="#000"><rect x="0" y="7" width="3" height="5" rx="1"/><rect x="4.5" y="4.5" width="3" height="7.5" rx="1"/><rect x="9" y="2" width="3" height="10" rx="1"/><rect x="13.5" y="0" width="3" height="12" rx="1"/></svg>
+                  <svg width="22" height="12" viewBox="0 0 26 13" fill="#000"><rect x="0.5" y="0.5" width="22" height="12" rx="3" fill="none" stroke="#000" opacity=".4"/><rect x="2" y="2" width="17" height="9" rx="1.5"/><rect x="24" y="4" width="2" height="5" rx="1"/></svg>
+                </span>
+              </div>
+              <div class="chat-header">
+                <img class="avatar" src="https://orchid.ai/branded/orchid-icon-3d.png" alt="Osmo" />
+                <span class="name">Osmo ›</span>
+              </div>
+              <div class="chat-body">
+                <div class="chat-time"><b>Today</b> 8:05 AM</div>
+                <div class="bubble recv">you left Alex on read 3 days ago — she's an investor, keep it warm but brief.</div>
+                <div class="bubble sent">ugh yeah. help me reply 🙏</div>
+                <div class="bubble recv">try: “sorry for the delay — deck's attached, would love your take whenever you have a sec.”</div>
+                <div class="bubble recv">confident, no over-apologizing. that's her tone. ✨</div>
+              </div>
+              <div class="chat-input">
+                <span class="field">Message</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TESTIMONIAL ==================== -->
+    <section class="testimonial reveal" aria-label="What people say about Osmo">
+      <div class="wrap">
+        <img class="t-avatar fade-swap" id="t-avatar" src="https://orchid.ai/branded/orchid-icon-3d.png" alt="" />
+        <blockquote class="fade-swap" id="t-quote">“Osmo remembers what I promised everyone. I walk into every conversation knowing exactly where we left off.”</blockquote>
+        <cite class="fade-swap" id="t-author">– Maya</cite>
+      </div>
+    </section>
+
+    <!-- ==================== FEATURE STACK ==================== -->
+    <section class="features" id="features" aria-label="What Osmo does for you">
+      <div class="wrap">
+
+        <!-- Feature 1: One memory for every person -->
+        <article class="feature reverse reveal">
+          <div class="feature-copy">
+            <h3>One memory for every person.</h3>
+            <p class="lead">Osmo brings your conversations together and recognizes the same human wherever they show up — email, iMessage, LinkedIn, WhatsApp. It remembers the details, so you never open a thread cold again.</p>
+            <div class="feature-list">
+              <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>Recognizes the same person everywhere</div>
+              <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>Remembers what they care about</div>
+              <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="6" cy="12" r="3"/><circle cx="18" cy="6" r="3"/><circle cx="18" cy="18" r="3"/><path d="M8.6 10.6 15.4 7.4M8.6 13.4l6.8 3.2"/></svg>Never open a thread cold</div>
+            </div>
+            <a class="btn btn--dark" href="#">Download for Mac</a>
+          </div>
+          <div class="feature-media">
+            <div class="media-card">
+              <img class="bg" src="https://orchid.ai/branded/aruba.webp" alt="" />
+              <div class="app-ico" style="top:14%; left:20%;"><img src="https://orchid.ai/logos/providers/google-calendar.png" alt="Gmail"></div>
+              <div class="app-ico" style="top:8%; left:52%;"><img src="https://orchid.ai/logos/providers/granola.png" alt="Granola"></div>
+              <div class="app-ico" style="top:16%; right:12%;"><img src="https://orchid.ai/logos/providers/slack.png" alt="Slack"></div>
+              <div class="app-ico center" style="top:42%; left:44%;"><img src="https://orchid.ai/branded/orchid-icon-3d.png" alt="Osmo"></div>
+              <div class="app-ico" style="top:44%; left:16%;"><img src="https://orchid.ai/logos/providers/dropbox.png" alt="Dropbox"></div>
+              <div class="app-ico" style="top:40%; right:10%;"><img src="https://orchid.ai/logos/providers/notion.png" alt="Notion"></div>
+              <div class="app-ico" style="bottom:14%; left:36%;"><img src="https://orchid.ai/logos/providers/stripe.png" alt="Stripe"></div>
+              <div class="app-ico" style="bottom:16%; right:22%;"><img src="https://orchid.ai/logos/providers/hubspot.png" alt="Hubspot"></div>
+            </div>
+          </div>
+        </article>
+
+        <div class="sep reveal"><span class="dots"><i></i><i></i><i></i><i></i><i></i></span></div>
+
+        <!-- Feature 2: It reads people -->
+        <article class="feature reveal">
+          <div class="feature-copy">
+            <h3>It reads people, so you don't have to guess.</h3>
+            <p class="lead">Built on real human psychology, Osmo learns how each person communicates and tells you the tonality to strike — not some generic “professional tone.”</p>
+            <div class="feature-list">
+              <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 8a8 8 0 0 1 13-2l3 3M20 16a8 8 0 0 1-13 2l-3-3"/><path d="M20 4v4h-4M4 20v-4h4"/></svg>Direct or warm, fast or slow</div>
+              <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m12 3 2.2 5.3L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.8-.7z"/></svg>The right tone, tuned per person</div>
+              <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 16v-4M12 8h.01"/></svg>Always shows you why it works</div>
+            </div>
+            <a class="btn btn--dark" href="#">Download for Mac</a>
+          </div>
+          <div class="feature-media">
+            <div class="media-card">
+              <img class="bg" src="https://orchid.ai/branded/aruba_party.webp" alt="" />
+              <div class="habit-bubble" style="top:8%; right:8%;">the investor wants brevity + confidence</div>
+              <div class="habit-bubble" style="top:26%; left:8%;">your friend needs warmth, not a status update</div>
+              <div class="habit-bubble" style="top:48%; right:10%;">match her energy, keep it short 🎯</div>
+              <div class="habit-bubble" style="bottom:12%; left:8%;">he reads formal as cold — loosen up 🙂</div>
+            </div>
+          </div>
+        </article>
+
+        <div class="sep reveal"><span class="dots"><i></i><i></i><i></i><i></i><i></i></span></div>
+
+        <!-- Feature 3: A goal for every relationship -->
+        <article class="feature reverse reveal">
+          <div class="feature-copy">
+            <h3>A goal for every relationship.</h3>
+            <p class="lead">You don't just clear your inbox. You decide where a relationship should go — land the client, repair the friendship, get the yes — and Osmo keeps every conversation pointed at it.</p>
+            <div class="feature-list">
+              <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></svg>Land the client</div>
+              <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-4.5-9.5-9A5 5 0 0 1 12 6a5 5 0 0 1 9.5 6c-2.5 4.5-9.5 9-9.5 9z"/></svg>Repair the friendship</div>
+              <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 6 9 17l-5-5"/></svg>Get the yes</div>
+            </div>
+            <a class="btn btn--dark" href="#">Download for Mac</a>
+          </div>
+          <div class="feature-media">
+            <div class="media-card">
+              <img class="bg" src="https://orchid.ai/branded/aruba.webp" alt="" />
+              <div class="notif-ico" style="top:20%; left:18%; background:#1e8fff;"><span class="count">88</span><svg viewBox="0 0 24 24" fill="#fff" style="padding:15px"><path d="M3 5h18v14H3z" fill="#fff"/><path d="m4 6 8 6 8-6" fill="none" stroke="#1e8fff" stroke-width="2"/></svg></div>
+              <div class="notif-ico" style="top:12%; left:52%; background:#fff;"><span class="count">16</span><div style="font-size:10px;text-align:center;padding-top:8px;color:#ff3b30;font-weight:600">Tue<div style="font-size:24px;color:#111;line-height:1">1</div></div></div>
+              <div class="notif-ico" style="top:44%; right:16%; background:#3ad35f;"><span class="count">3</span><svg viewBox="0 0 24 24" fill="#fff" style="padding:16px"><path d="M6 3a2 2 0 0 0-2 2c0 8 6 14 14 14a2 2 0 0 0 2-2v-3l-4-2-2 2a10 10 0 0 1-5-5l2-2-2-4z"/></svg></div>
+              <div class="notif-ico" style="bottom:16%; left:34%; background:#3ad35f;"><span class="count">120</span><svg viewBox="0 0 24 24" fill="#fff" style="padding:15px"><path d="M12 4C7 4 3 7.4 3 11.5c0 2 1 3.9 2.6 5.2-.2.9-.6 1.9-1.3 2.8 1.3-.1 2.6-.6 3.6-1.4 1.2.4 2.6.6 4.1.6 5 0 9-3.4 9-7.8S17 4 12 4z"/></svg></div>
+            </div>
+          </div>
+        </article>
+
+        <div class="sep reveal"><span class="dots"><i></i><i></i><i></i><i></i><i></i></span></div>
+
+        <!-- Feature 4: It knows when, not just what -->
+        <article class="feature reveal">
+          <div class="feature-copy">
+            <h3>It knows when, not just what.</h3>
+            <p class="lead">The right message at the wrong time still falls flat. Osmo learns the rhythm of each relationship — who to nudge today, who needs space, when a check-in reads as thoughtful instead of needy.</p>
+            <div class="feature-list">
+              <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 0 1-3.4 0"/></svg>Who to follow up with today</div>
+              <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Who needs a little space</div>
+              <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m12 3 2.2 5.3L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.8-.7z"/></svg>Timed to land, never needy</div>
+            </div>
+            <a class="btn btn--dark" href="#">Download for Mac</a>
+          </div>
+          <div class="feature-media">
+            <div class="media-card">
+              <img class="bg" src="https://orchid.ai/branded/aruba_party.webp" alt="" />
+              <div class="notif-banner">
+                <div class="n-ico"><img src="https://orchid.ai/branded/orchid-icon-3d.png" alt=""></div>
+                <div>
+                  <div class="n-title">Osmo</div>
+                  <div class="n-body">Alex has gone quiet for 5 days. a short, warm check-in would land well right now. 👋</div>
+                </div>
+                <span class="n-now">now</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="sep reveal"><span class="dots"><i></i><i></i><i></i><i></i><i></i></span></div>
+
+        <!-- Feature 5: The right words, right when you need them -->
+        <article class="feature reverse reveal">
+          <div class="feature-copy">
+            <h3>The right words, right when you need them.</h3>
+            <p class="lead">As you go to reply, a small glass pill appears. Tap it — or just start typing — and Osmo hands you three ways to say what you mean, drafted in your voice, with a line on why it works. It lives on top of every app you already use.</p>
+            <div class="feature-list">
+              <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Three ways to say it</div>
+              <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 19l7-7a2.8 2.8 0 0 0-4-4l-7 7-1 5z"/><path d="M14 6l4 4"/></svg>Drafted in your voice</div>
+              <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3a3 3 0 0 0-3 3 3 3 0 0 0-2 5 3 3 0 0 0 1 5 3 3 0 0 0 5 1V3zM15 3a3 3 0 0 1 3 3 3 3 0 0 1 2 5 3 3 0 0 1-1 5 3 3 0 0 1-5 1V3z"/></svg>Grounded in psychology</div>
+            </div>
+            <a class="btn btn--dark" href="#">Download for Mac</a>
+          </div>
+          <div class="feature-media">
+            <div class="media-card">
+              <img class="bg" src="https://orchid.ai/branded/aruba.webp" alt="" />
+              <div class="imsg-card">
+                <div class="bubble sent" style="align-self:flex-end;">how do i tell him no without burning it?</div>
+                <div class="bubble recv" style="align-self:flex-start;">try: “not the right fit for us this round — but I'd genuinely love to stay in touch.”</div>
+                <div class="bubble recv" style="align-self:flex-start;">firm, kind, leaves the door open. ✨</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ==================== CLOSING CTA ==================== -->
+    <section class="closing" aria-label="Know exactly what to say.">
+      <div class="wrap">
+        <div class="closing-card reveal">
+          <img class="bg" src="https://orchid.ai/branded/aruba_party.webp" alt="" />
+          <div class="overlay"></div>
+          <div class="closing-inner">
+            <h2>Know exactly what to say.</h2>
+            <a class="btn btn--white" href="#">
+              <svg class="imsg-ico" viewBox="0 0 24 24" fill="#4cd964" aria-hidden="true"><path d="M12 2C6.5 2 2 5.9 2 10.7c0 2.7 1.4 5.1 3.6 6.7-.1 1.2-.6 2.4-1.4 3.4 1.6-.2 3.1-.8 4.4-1.7 1.1.3 2.2.5 3.4.5 5.5 0 10-3.9 10-8.7S17.5 2 12 2Z"/></svg>
+              Download for Mac
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <a class="brand" href="/" aria-label="Osmo home">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path fill="#08152e" d="M12 2c1.1 0 2 1.5 2 3.4 0 .5-.06 1-.17 1.4A3.7 3.7 0 0 1 17 5.3c1.6-.9 3.4-.6 4 .5.55 1-.2 2.6-1.7 3.7-.4.3-.85.5-1.3.66.45.16.9.36 1.3.66 1.5 1.1 2.25 2.7 1.7 3.7-.6 1.1-2.4 1.4-4 .5a3.7 3.7 0 0 1-1.17-1.1c.11.4.17.9.17 1.4 0 1.9-.9 3.4-2 3.4s-2-1.5-2-3.4c0-.5.06-1 .17-1.4A3.7 3.7 0 0 1 7 18.7c-1.6.9-3.4.6-4-.5-.55-1 .2-2.6 1.7-3.7.4-.3.85-.5 1.3-.66A5 5 0 0 1 4.7 13.2C3.2 12.1 2.45 10.5 3 9.5c.6-1.1 2.4-1.4 4-.5.47.27.86.65 1.17 1.1A5 5 0 0 1 8 8.7C8 6.8 8.9 5.3 10 5.3M12 9.4a2.6 2.6 0 1 0 0 5.2 2.6 2.6 0 0 0 0-5.2Z"/>
+        </svg>
+        <span>Osmo</span>
+      </a>
+      <div class="footer-col">
+        <h4>Social</h4>
+        <a href="#">X (formerly Twitter)</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Discord</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="/blog">Blog</a>
+        <a href="/manifesto">Manifesto</a>
+        <a href="/faq">FAQ</a>
+        <a href="mailto:hello@osmo.ai">Contact Us</a>
+        <a href="/legal/terms">Terms of Service</a>
+        <a href="/legal/privacy">Privacy Policy</a>
+      </div>
+      <div class="footer-col">
+        <h4>Works with</h4>
+        <a href="#">iMessage</a>
+        <a href="#">Gmail</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">WhatsApp</a>
+        <a href="#">Slack</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
