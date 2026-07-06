@@ -1,14 +1,14 @@
 #!/bin/bash
 # Osmo one-line installer. Downloads the latest build, installs it to
-# /Applications, and clears the download-quarantine flag so it opens WITHOUT
-# the "Apple could not verify" warning (the app is signed but not yet
-# notarized). Run with:
+# /Applications. The app is signed with a Developer ID and notarized by Apple,
+# so it opens with no security warning; this just saves you the unzip/drag.
+# Run with:
 #
 #   curl -fsSL https://leftonread.in/install.sh | bash
 #
 set -e
 
-URL="https://github.com/princecharming001/leftonread/releases/download/v0.2.0-beta/Osmo-0.2.0-beta.zip"
+URL="https://github.com/princecharming001/leftonread/releases/download/v0.2.1/Osmo-0.2.1.zip"
 DEST="/Applications/Osmo.app"
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
