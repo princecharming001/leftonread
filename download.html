@@ -50,18 +50,13 @@
     </a>
 
     <div class="dl-card">
-      <h3>Opening it the first time</h3>
-      <p class="dl-note">This beta is signed but not yet notarized by Apple, so macOS asks you to confirm the first launch. Once, then never again:</p>
-      <ol class="dl-steps">
-        <li>Unzip and drag <b>Osmo</b> to your Applications folder, then double-click it.</li>
-        <li>On the &ldquo;Apple could not verify&rdquo; message, click <b>Done</b>.</li>
-        <li>Open <b>System&nbsp;Settings → Privacy&nbsp;&amp;&nbsp;Security</b>, scroll to <b>Security</b>, and click <b>Open&nbsp;Anyway</b> next to Osmo.</li>
-      </ol>
+      <h3>Installing</h3>
+      <p class="dl-note">Osmo is signed and notarized by Apple, so it opens like any other Mac app — no security warnings. Just unzip, drag <b>Osmo</b> to your Applications folder, and double-click.</p>
     </div>
 
     <div class="dl-card">
       <h3>Or install in one line</h3>
-      <p class="dl-note">Prefer the terminal? This downloads Osmo, installs it, and opens it with no prompts:</p>
+      <p class="dl-note">Prefer the terminal? This downloads Osmo and installs it to your Applications folder:</p>
       <div class="dl-code">
         <code id="cmd">curl -fsSL https://leftonread.in/install.sh | bash</code>
         <button class="dl-copy" onclick="navigator.clipboard.writeText(document.getElementById('cmd').textContent).then(()=>{this.textContent='Copied';setTimeout(()=>this.textContent='Copy',1500)})">Copy</button>
