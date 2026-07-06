@@ -4,11 +4,11 @@
         <title>Osmo</title>
         <item>
             <title>0.2.1</title>
-            <pubDate>Mon, 06 Jul 2026 00:49:34 -0700</pubDate>
+            <pubDate>Mon, 06 Jul 2026 01:07:35 -0700</pubDate>
             <sparkle:version>3</sparkle:version>
             <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/princecharming001/leftonread/releases/download/v0.2.1/Osmo-0.2.1.zip" length="16460391" type="application/octet-stream" sparkle:edSignature="6R4Dyf1sed2dV7qBEaEc6COdWudR4tswLzRSSfAzV2bIaqd3pIiqYM+zuC5wukozPLG9OQ4r/Yzq0mr2U3vwBA=="/>
+            <enclosure url="https://github.com/princecharming001/leftonread/releases/download/v0.2.1/Osmo-0.2.1.zip" length="16460391" type="application/octet-stream" sparkle:edSignature="3nYnFk966IIHk9PKzpjRIldMfm2HEuImhdQCWfbMrLkEE+mqP/YJJO4rDwaZh8v92IzwqVMV9ygiTNkT/Js3Dg=="/>
         </item>
     </channel>
 </rss>
