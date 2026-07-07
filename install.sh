@@ -8,7 +8,7 @@
 #
 set -e
 
-URL="https://github.com/princecharming001/leftonread/releases/download/v0.3.1/Osmo-0.3.1.zip"
+URL="https://github.com/princecharming001/leftonread/releases/download/v0.3.2/Osmo-0.3.2.zip"
 DEST="/Applications/Osmo.app"
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
