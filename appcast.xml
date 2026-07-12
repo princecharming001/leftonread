@@ -3,12 +3,12 @@
     <channel>
         <title>Osmo</title>
         <item>
-            <title>0.3.4</title>
-            <pubDate>Sun, 12 Jul 2026 01:27:53 +0000</pubDate>
-            <sparkle:version>1783819427</sparkle:version>
-            <sparkle:shortVersionString>0.3.4</sparkle:shortVersionString>
+            <title>0.3.5</title>
+            <pubDate>Sun, 12 Jul 2026 23:16:29 +0000</pubDate>
+            <sparkle:version>1783897936</sparkle:version>
+            <sparkle:shortVersionString>0.3.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/princecharming001/leftonread/releases/download/v0.3.4/Osmo-0.3.4.zip" length="17865830" type="application/octet-stream" sparkle:edSignature="iRHVG9CwSYJ9Ujd4P3Sbd4xX3slEOqDrSmUdL8Qp4PcG27INHn86MLr0dtbwktpENFJfSzs6RWrwaQMrN2MEBw=="/>
+            <enclosure url="https://github.com/princecharming001/leftonread/releases/download/v0.3.5/Osmo-0.3.5.zip" length="17869103" type="application/octet-stream" sparkle:edSignature="EEpihc14TTpegNP1k3j9DOdXz/q7yJXtDzX9JyleY3ZAkmByhebPu1SB8CZFAqy6Ry8OVQrk0JS9II2oZBq3Dg=="/>
         </item>
     </channel>
 </rss>
